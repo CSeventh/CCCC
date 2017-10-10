@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CECD652D1F8CAE0700C4B795 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CECD652C1F8CAE0700C4B795 /* main.m */; };
+		CECD65301F8CAE0700C4B795 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CECD652F1F8CAE0700C4B795 /* AppDelegate.m */; };
+		CECD65361F8CAE0700C4B795 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECD65341F8CAE0700C4B795 /* Main.storyboard */; };
+		CECD65381F8CAE0700C4B795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECD65371F8CAE0700C4B795 /* Assets.xcassets */; };
+		CECD653B1F8CAE0700C4B795 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECD65391F8CAE0700C4B795 /* LaunchScreen.storyboard */; };
+		CECD65461F8CAE0700C4B795 /* CseventhTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CECD65451F8CAE0700C4B795 /* CseventhTests.m */; };
+		CECD65511F8CAE0700C4B795 /* CseventhUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CECD65501F8CAE0700C4B795 /* CseventhUITests.m */; };
+		CECD65601F8CAE3C00C4B795 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECD655F1F8CAE3C00C4B795 /* TableViewController.m */; };
+		CECD65631F8CB2B800C4B795 /* webViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECD65621F8CB2B800C4B795 /* webViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CECD65421F8CAE0700C4B795 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CECD65201F8CAE0700C4B795 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CECD65271F8CAE0700C4B795;
+			remoteInfo = Cseventh;
+		};
+		CECD654D1F8CAE0700C4B795 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CECD65201F8CAE0700C4B795 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CECD65271F8CAE0700C4B795;
+			remoteInfo = Cseventh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CECD65281F8CAE0700C4B795 /* Cseventh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cseventh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECD652C1F8CAE0700C4B795 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CECD652E1F8CAE0700C4B795 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CECD652F1F8CAE0700C4B795 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CECD65351F8CAE0700C4B795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CECD65371F8CAE0700C4B795 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CECD653A1F8CAE0700C4B795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CECD653C1F8CAE0700C4B795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECD65411F8CAE0700C4B795 /* CseventhTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CseventhTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECD65451F8CAE0700C4B795 /* CseventhTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CseventhTests.m; sourceTree = "<group>"; };
+		CECD65471F8CAE0700C4B795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECD654C1F8CAE0700C4B795 /* CseventhUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CseventhUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECD65501F8CAE0700C4B795 /* CseventhUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CseventhUITests.m; sourceTree = "<group>"; };
+		CECD65521F8CAE0700C4B795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECD655E1F8CAE3C00C4B795 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = ../TableViewController.h; sourceTree = "<group>"; };
+		CECD655F1F8CAE3C00C4B795 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = ../TableViewController.m; sourceTree = "<group>"; };
+		CECD65611F8CB2B800C4B795 /* webViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = webViewController.h; sourceTree = "<group>"; };
+		CECD65621F8CB2B800C4B795 /* webViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = webViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CECD65251F8CAE0700C4B795 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECD653E1F8CAE0700C4B795 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECD65491F8CAE0700C4B795 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CECD651F1F8CAE0600C4B795 = {
+			isa = PBXGroup;
+			children = (
+				CECD652A1F8CAE0700C4B795 /* Cseventh */,
+				CECD65441F8CAE0700C4B795 /* CseventhTests */,
+				CECD654F1F8CAE0700C4B795 /* CseventhUITests */,
+				CECD65291F8CAE0700C4B795 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CECD65291F8CAE0700C4B795 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CECD65281F8CAE0700C4B795 /* Cseventh.app */,
+				CECD65411F8CAE0700C4B795 /* CseventhTests.xctest */,
+				CECD654C1F8CAE0700C4B795 /* CseventhUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CECD652A1F8CAE0700C4B795 /* Cseventh */ = {
+			isa = PBXGroup;
+			children = (
+				CECD652E1F8CAE0700C4B795 /* AppDelegate.h */,
+				CECD652F1F8CAE0700C4B795 /* AppDelegate.m */,
+				CECD65611F8CB2B800C4B795 /* webViewController.h */,
+				CECD65621F8CB2B800C4B795 /* webViewController.m */,
+				CECD655E1F8CAE3C00C4B795 /* TableViewController.h */,
+				CECD655F1F8CAE3C00C4B795 /* TableViewController.m */,
+				CECD65341F8CAE0700C4B795 /* Main.storyboard */,
+				CECD65371F8CAE0700C4B795 /* Assets.xcassets */,
+				CECD65391F8CAE0700C4B795 /* LaunchScreen.storyboard */,
+				CECD653C1F8CAE0700C4B795 /* Info.plist */,
+				CECD652B1F8CAE0700C4B795 /* Supporting Files */,
+			);
+			path = Cseventh;
+			sourceTree = "<group>";
+		};
+		CECD652B1F8CAE0700C4B795 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CECD652C1F8CAE0700C4B795 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CECD65441F8CAE0700C4B795 /* CseventhTests */ = {
+			isa = PBXGroup;
+			children = (
+				CECD65451F8CAE0700C4B795 /* CseventhTests.m */,
+				CECD65471F8CAE0700C4B795 /* Info.plist */,
+			);
+			path = CseventhTests;
+			sourceTree = "<group>";
+		};
+		CECD654F1F8CAE0700C4B795 /* CseventhUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CECD65501F8CAE0700C4B795 /* CseventhUITests.m */,
+				CECD65521F8CAE0700C4B795 /* Info.plist */,
+			);
+			path = CseventhUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CECD65271F8CAE0700C4B795 /* Cseventh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECD65551F8CAE0700C4B795 /* Build configuration list for PBXNativeTarget "Cseventh" */;
+			buildPhases = (
+				CECD65241F8CAE0700C4B795 /* Sources */,
+				CECD65251F8CAE0700C4B795 /* Frameworks */,
+				CECD65261F8CAE0700C4B795 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cseventh;
+			productName = Cseventh;
+			productReference = CECD65281F8CAE0700C4B795 /* Cseventh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CECD65401F8CAE0700C4B795 /* CseventhTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECD65581F8CAE0700C4B795 /* Build configuration list for PBXNativeTarget "CseventhTests" */;
+			buildPhases = (
+				CECD653D1F8CAE0700C4B795 /* Sources */,
+				CECD653E1F8CAE0700C4B795 /* Frameworks */,
+				CECD653F1F8CAE0700C4B795 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CECD65431F8CAE0700C4B795 /* PBXTargetDependency */,
+			);
+			name = CseventhTests;
+			productName = CseventhTests;
+			productReference = CECD65411F8CAE0700C4B795 /* CseventhTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CECD654B1F8CAE0700C4B795 /* CseventhUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECD655B1F8CAE0700C4B795 /* Build configuration list for PBXNativeTarget "CseventhUITests" */;
+			buildPhases = (
+				CECD65481F8CAE0700C4B795 /* Sources */,
+				CECD65491F8CAE0700C4B795 /* Frameworks */,
+				CECD654A1F8CAE0700C4B795 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CECD654E1F8CAE0700C4B795 /* PBXTargetDependency */,
+			);
+			name = CseventhUITests;
+			productName = CseventhUITests;
+			productReference = CECD654C1F8CAE0700C4B795 /* CseventhUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CECD65201F8CAE0700C4B795 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = user;
+				TargetAttributes = {
+					CECD65271F8CAE0700C4B795 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = LZ9D78M5K5;
+						ProvisioningStyle = Automatic;
+					};
+					CECD65401F8CAE0700C4B795 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = LZ9D78M5K5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CECD65271F8CAE0700C4B795;
+					};
+					CECD654B1F8CAE0700C4B795 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = LZ9D78M5K5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CECD65271F8CAE0700C4B795;
+					};
+				};
+			};
+			buildConfigurationList = CECD65231F8CAE0700C4B795 /* Build configuration list for PBXProject "Cseventh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CECD651F1F8CAE0600C4B795;
+			productRefGroup = CECD65291F8CAE0700C4B795 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CECD65271F8CAE0700C4B795 /* Cseventh */,
+				CECD65401F8CAE0700C4B795 /* CseventhTests */,
+				CECD654B1F8CAE0700C4B795 /* CseventhUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CECD65261F8CAE0700C4B795 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECD653B1F8CAE0700C4B795 /* LaunchScreen.storyboard in Resources */,
+				CECD65381F8CAE0700C4B795 /* Assets.xcassets in Resources */,
+				CECD65361F8CAE0700C4B795 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECD653F1F8CAE0700C4B795 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECD654A1F8CAE0700C4B795 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CECD65241F8CAE0700C4B795 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECD65301F8CAE0700C4B795 /* AppDelegate.m in Sources */,
+				CECD65601F8CAE3C00C4B795 /* TableViewController.m in Sources */,
+				CECD652D1F8CAE0700C4B795 /* main.m in Sources */,
+				CECD65631F8CB2B800C4B795 /* webViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECD653D1F8CAE0700C4B795 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECD65461F8CAE0700C4B795 /* CseventhTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECD65481F8CAE0700C4B795 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECD65511F8CAE0700C4B795 /* CseventhUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CECD65431F8CAE0700C4B795 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CECD65271F8CAE0700C4B795 /* Cseventh */;
+			targetProxy = CECD65421F8CAE0700C4B795 /* PBXContainerItemProxy */;
+		};
+		CECD654E1F8CAE0700C4B795 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CECD65271F8CAE0700C4B795 /* Cseventh */;
+			targetProxy = CECD654D1F8CAE0700C4B795 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CECD65341F8CAE0700C4B795 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CECD65351F8CAE0700C4B795 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CECD65391F8CAE0700C4B795 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CECD653A1F8CAE0700C4B795 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CECD65531F8CAE0700C4B795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CECD65541F8CAE0700C4B795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CECD65561F8CAE0700C4B795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LZ9D78M5K5;
+				INFOPLIST_FILE = Cseventh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-2.Cseventh";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CECD65571F8CAE0700C4B795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LZ9D78M5K5;
+				INFOPLIST_FILE = Cseventh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-2.Cseventh";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CECD65591F8CAE0700C4B795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LZ9D78M5K5;
+				INFOPLIST_FILE = CseventhTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-2.CseventhTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cseventh.app/Cseventh";
+			};
+			name = Debug;
+		};
+		CECD655A1F8CAE0700C4B795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LZ9D78M5K5;
+				INFOPLIST_FILE = CseventhTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-2.CseventhTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cseventh.app/Cseventh";
+			};
+			name = Release;
+		};
+		CECD655C1F8CAE0700C4B795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = LZ9D78M5K5;
+				INFOPLIST_FILE = CseventhUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-2.CseventhUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Cseventh;
+			};
+			name = Debug;
+		};
+		CECD655D1F8CAE0700C4B795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = LZ9D78M5K5;
+				INFOPLIST_FILE = CseventhUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-2.CseventhUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Cseventh;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CECD65231F8CAE0700C4B795 /* Build configuration list for PBXProject "Cseventh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECD65531F8CAE0700C4B795 /* Debug */,
+				CECD65541F8CAE0700C4B795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECD65551F8CAE0700C4B795 /* Build configuration list for PBXNativeTarget "Cseventh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECD65561F8CAE0700C4B795 /* Debug */,
+				CECD65571F8CAE0700C4B795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CECD65581F8CAE0700C4B795 /* Build configuration list for PBXNativeTarget "CseventhTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECD65591F8CAE0700C4B795 /* Debug */,
+				CECD655A1F8CAE0700C4B795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CECD655B1F8CAE0700C4B795 /* Build configuration list for PBXNativeTarget "CseventhUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECD655C1F8CAE0700C4B795 /* Debug */,
+				CECD655D1F8CAE0700C4B795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CECD65201F8CAE0700C4B795 /* Project object */;
+}
